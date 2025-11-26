@@ -1,5 +1,7 @@
-import os
-TOKEN = os.getenv("TELEGRAM_TOKEN")
-if not TOKEN:
-    raise RuntimeError("TELEGRAM_TOKEN не задан!")
+import random
+import telebot
+from collections import defaultdict
+
+TOKEN = '8002669499:AAEyyp07Ns8zC3EzZZTvkYNdV8Syff_RLGo'
 bot = telebot.TeleBot(TOKEN)
+# ... остальной код ...
